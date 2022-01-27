@@ -18,7 +18,7 @@ jobs:
         try-scenario:
           - ember-3.26
           - ember-3.27-beta.1
-          - ember-3.28
+          - ember-lts-3.28
 
     steps:
       - uses: actions/checkout@v2
