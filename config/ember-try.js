@@ -13,6 +13,11 @@ module.exports = async function () {
             'ember-source': '~3.26.0',
           },
         },
+        env: {
+          EMBER_OPTIONAL_FEATURES: JSON.stringify({
+            'jquery-integration': true,
+          }),
+        },
       },
       {
         name: 'ember-3.27-beta.1',
@@ -21,6 +26,11 @@ module.exports = async function () {
             'ember-source': '3.27.0-beta.1',
           },
         },
+        env: {
+          EMBER_OPTIONAL_FEATURES: JSON.stringify({
+            'jquery-integration': true,
+          }),
+        },
       },
       {
         name: 'ember-lts-3.28',
@@ -28,6 +38,11 @@ module.exports = async function () {
           devDependencies: {
             'ember-source': '~3.28.0',
           },
+        },
+        env: {
+          EMBER_OPTIONAL_FEATURES: JSON.stringify({
+            'jquery-integration': true,
+          }),
         },
       },
       {
